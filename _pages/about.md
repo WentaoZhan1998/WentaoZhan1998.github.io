@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://publichealth.jhu.edu/'>The Johns Hopkins University</a>. Baltimore, Maryland, 21205, U.S.
 

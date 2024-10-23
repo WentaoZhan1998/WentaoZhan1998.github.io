@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: A growing collection of your cool projects.
+description: A collection of Wentao's research projects
 nav: true
 nav_order: 3
 display_categories: [work, fun]
@@ -10,6 +10,37 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+
+My research focus on the interaction between traditional spatial statistics and real world applications.
+
+---
+
+# Neural Networks for Geospatial Data
+
+
+
+<div align="center">
+<a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2024.2356293?casa_token=UaGsBumw4JAAAAAA:RD4cFpZW7lk3pu8Q5uVdxm5o3_RXWKRLXgxByEgl68qENKJfiNsS_Ci5izQ9WMQkZUKgSXasagyLQw">
+  <img
+    src="./assets/img/MISE_dim5_main.png"
+    width="800">
+</a>
+</div>
+
+---
+
+# GeospaNN: a formal implementation of the Neural Networks for geospatial data
+
+<div align="center">
+<a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2024.2356293?casa_token=UaGsBumw4JAAAAAA:RD4cFpZW7lk3pu8Q5uVdxm5o3_RXWKRLXgxByEgl68qENKJfiNsS_Ci5izQ9WMQkZUKgSXasagyLQw">
+  <img
+    src="./assets/img/updated_NN_figure.png"
+    width="800">
+</a>
+</div>
+
+
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
