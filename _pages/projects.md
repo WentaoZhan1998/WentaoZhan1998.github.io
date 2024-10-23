@@ -22,7 +22,7 @@ My research focus on the interaction between traditional spatial statistics and 
 <div align="center">
 <a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2024.2356293?casa_token=UaGsBumw4JAAAAAA:RD4cFpZW7lk3pu8Q5uVdxm5o3_RXWKRLXgxByEgl68qENKJfiNsS_Ci5izQ9WMQkZUKgSXasagyLQw">
   <img
-    src="https://github.com/WentaoZhan1998/WentaoZhan1998.github.io/assets/img/MISE_dim5_main.png"
+    src="https://github.com/WentaoZhan1998/WentaoZhan1998.github.io/assets/img/MISE_dim5_main.png?raw=True"
     width="800">
 </a>
 </div>
@@ -34,7 +34,7 @@ My research focus on the interaction between traditional spatial statistics and 
 <div align="center">
 <a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2024.2356293?casa_token=UaGsBumw4JAAAAAA:RD4cFpZW7lk3pu8Q5uVdxm5o3_RXWKRLXgxByEgl68qENKJfiNsS_Ci5izQ9WMQkZUKgSXasagyLQw">
   <img
-    src="https://github.com/WentaoZhan1998/WentaoZhan1998.github.io/assets/img/updated_NN_figure.png"
+    src="https://github.com/WentaoZhan1998/WentaoZhan1998.github.io/assets/img/updated_NN_figure.png?raw=True"
     width="800">
 </a>
 </div>
