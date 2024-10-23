@@ -18,26 +18,25 @@ My research focus on the interaction between traditional spatial statistics and 
 ## Neural Networks for Geospatial Data
 
 
-
-<div align="center">
-<a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2024.2356293?casa_token=UaGsBumw4JAAAAAA:RD4cFpZW7lk3pu8Q5uVdxm5o3_RXWKRLXgxByEgl68qENKJfiNsS_Ci5izQ9WMQkZUKgSXasagyLQw">
-  <img
-    src="https://github.com/WentaoZhan1998/WentaoZhan1998.github.io/assets/img/MISE_dim5_main.png?raw=True"
-    width="800">
-</a>
-</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/MISE_dim5_main.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/MISE_dim5_main.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 
 ---
 
 ## GeospaNN: a formal implementation of the Neural Networks for geospatial data
 
-<div align="center">
-<a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2024.2356293?casa_token=UaGsBumw4JAAAAAA:RD4cFpZW7lk3pu8Q5uVdxm5o3_RXWKRLXgxByEgl68qENKJfiNsS_Ci5izQ9WMQkZUKgSXasagyLQw">
-  <img
-    src="https://github.com/WentaoZhan1998/WentaoZhan1998.github.io/assets/img/updated_NN_figure.png?raw=True"
-    width="800">
-</a>
-</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/updated_NN_figure.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/updated_NN_figure.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 
 
 
