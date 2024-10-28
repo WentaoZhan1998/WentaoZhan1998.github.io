@@ -9,17 +9,23 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room E3547</p>
-    <p>615 N. Wolfe Street</p>
-    <p>Baltimore, Maryland</p>
+    <p>wzhan3 at jhu dot edu</p>
 
 news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello world. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Wentao Zhan, currently a fifth-year Ph.D. student in the Biostatistics Department of Johns Hopkins University. My advisors are Dr. Hongkai Ji and Dr. Abhirup Datta. Prior to joining as a Ph.D. in 2020, I obtained my Bachelor of Science degree from Fudan University, majored in Mathematics and Applied Mathematics. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research aims at addressing statistical challenges in modern scientific frontier with different types of spatial settings. On methodology side, I take the advantanges of the modern machine learning's flexibility and the traditional geo-spatial modeling's parsimony to develop scalable method with statistical interpretation. My recent work ["Neural Networks for Geospatial Data"](https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356293) is an example where we proposed a novel and efficient extension of traditional neural networks to spatial setting with a concrete theoretical investigation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+On the application side, I work mostly on data from spatial transcriptomics, a cutting-edge technique that provides spatially-resolved gene expressions for tens of thousands of cells and genes simultaneously. The ultimate goal of my work is to understand the mechanism between cell and the micro-environment by spatial modeling, which helps the downstream studies involving immunotherapy and pathology. Besides, I'm also actively applying my methodology on environmental data. I developed python package [GeospaNN](https://github.com/WentaoZhan1998/geospaNN), an implementation of my previous work, which works well on the PM 2.5 data from the U.S. [Environmental Protection Agency (EPA)](https://www.epa.gov/outdoor-air-quality-data/download-daily-data). 
+
+For more details on my works, please visit the [Research](https://wentaozhan1998.github.io/research/) page.
+
+---
+
+## Key words: 
+**Methodology**: Spatial Statistics, Gaussian Process, Machine Learning, High-dimensional Data.\\
+**Application**: Spatial Transcriptomics, Air Pollution, Genomics.
