@@ -25,6 +25,7 @@ My research focus on the interaction between traditional spatial statistics and 
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/MISE_dim5_main.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
 
 ---
 
@@ -37,7 +38,7 @@ My research focus on the interaction between traditional spatial statistics and 
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/updated_NN_figure.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-
+</div>
 
 
 <div class="projects">
