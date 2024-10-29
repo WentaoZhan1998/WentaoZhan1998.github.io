@@ -16,23 +16,22 @@ With the rapid advancement of modern technology, data containing spatial informa
 
 ## Neural Networks for Geospatial Data
 
-Analysis of geospatial data has traditionally been model-based, with a fixed mean model, customarily specified as a linear regression on the covariates, and a Gaussian process covariance model, encoding the spatial dependence. While non-linear machine learning algorithms like neural networks are increasingly being used for spatial analysis. We propose **NN-GLS** that embeds neural networks directly within the traditional Gaussian process (GP) geostatistical model to accommodate non-linear mean functions while retaining all other advantages of GP, like explicit modeling of the spatial covariance and predicting at new locations via kriging.
+Analysis of geospatial data has traditionally been model-based, with a fixed mean model, customarily specified as a linear regression on the covariates, and a Gaussian process covariance model, encoding the spatial dependence. We propose **NN-GLS** that embeds neural networks directly within the traditional Gaussian process (GP) geostatistical model to accommodate non-linear mean functions while retaining all other advantages of GP, like explicit modeling of the spatial covariance and predicting at new locations via kriging.
 
 We provide the first large-sample results for any neural network algorithm for irregular spatial data, including the consistency and finite sample concentration rates which quantifies the need to accurately model the spatial covariance in neural networks for dependent data. 
 
-In both fixed effect estimation and spatial prediction tasks, NN-GLS provides superior performance over other competing methods.
+NN-GLS admits a representation as a special type of graph neural network, which takes kriging weights for graph convolution. The idea can be easily generalized to a wider range of deep-learning approach, which led to "spatially-informed deep-learning" as a promising future direction.
 
 **Related publications**
+- Zhan, W., & Datta, A. (2024). Neural networks for geospatial data. Journal of the American Statistical Association, 1–21.
 
 
 <div style="display: flex; justify-content: space-around;">
   <figure>
-    {% include figure.liquid path="assets/img/MISE_dim5_main.png" alt="Image 1 description" width="45%" %}
-    <figcaption style="display: none;">Image 1 description</figcaption>
+    {% include figure.liquid path="assets/img/real_3.png" width="95%" caption='Prediction interval from NN-GLS' %}
   </figure>
   <figure>
-    {% include figure.liquid path="assets/img/MISE_dim5_main.png" alt="Image 2 description" width="45%" %}
-    <figcaption style="display: none;">Image 2 description</figcaption>
+    {% include figure.liquid path="assets/img/MISE_dim5_main.png" width="95%" caption='Estimation performance for NN-GLS' %}
   </figure>
 </div>
 
@@ -40,14 +39,24 @@ In both fixed effect estimation and spatial prediction tasks, NN-GLS provides su
 
 ## GeospaNN: a formal implementation of the Neural Networks for geospatial data
 
-  {% include figure.liquid path="assets/img/MISE_dim5_main.png" alt="Image 1 description" width="45%" %}
-  {% include figure.liquid path="assets/img/MISE_dim5_main.png" alt="Image 2 description" width="45%" %}
+GeospaNN is a package for geospatial analysis using neural networks that explicitly accounts for spatial correlation in the data. The package implements the NN-GLS method and is developed using PyTorch and under the framework of PyG library. GeospaNN is a geographically-informed Graph Neural Network (GNN) for analyzing large and irregular geospatial data, that combines multi-layer perceptrons, Gaussian processes, and generalized least squares (GLS) loss. GeospaNN offers both regression function estimation and spatial prediction. The sparse approximation in NN-GLS allows efficient computation in geospaNN, which scale up to sample sizes of hundreds of thousands.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/updated_NN_figure.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/updated_NN_figure.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+**Related publications**
+- Zhan, W., & Datta, A. (2024). GeospaNN: an Implementation of Geospatial Neural Networks (Manuscript in prepartion)
+
+{% include figure.liquid path="assets/img/updated_NN_figure.png" caption='Architecture geospaNN' width="95%" %}
+
+---
+
+## Multispa: a multi-sample cell-microenvironment analysis tool 
+
+The development of spatial transcriptomics allows for single-cell (or near-single-cell) level sequencing of tissues while preserving spatial information. This technique represents an unprecedented advancement in medical and biological research. For instance, in immunology, immune cells interact with tumor cells through antibody signaling, and the fate of a tumor cell is influenced by the density of immune cells in its microenvironment, which can only depicted by introducing "spatial distance."
+
+In this project, we hypothesize that the relationship between the expression of gene A in tumor cells and the expression of gene B in immune cells within their microenvironment may differ across patient groups (e.g., treatment vs. control).
+
+We introduce Multispa, a statistical tool that leverages spatial information to identify differentially associated gene pairs between groups. Multispa uncovers distinct gene regulatory mechanisms across these groups and holds significant implications for immunotherapy research.
+
+**Related publications**
+- Zhan, W., & Ji, H (2024). Multispa: a multi-sample cell-microenvironment tool for spatial transcriptomics  (Manuscript in prepartion)
+
+{% include figure.liquid path="assets/img/updated_NN_figure.png" caption='Architecture geospaNN' width="95%" %}
