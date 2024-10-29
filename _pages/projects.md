@@ -2,7 +2,6 @@
 layout: page
 title: Research
 permalink: /research/
-description: A collection of Wentao's research projects
 nav: true
 nav_order: 3
 display_categories: [work, fun]
@@ -11,7 +10,7 @@ horizontal: false
 
 <!-- pages/projects.md -->
 
-My research aims at addressing statistical challenges in modern scientific frontier with different types of spatial settings. 
+With the rapid advancement of modern technology, data containing spatial information is being generated in increasingly larger volumes and more complex structures, presenting significant statistical challenges to the scientific community. However, I believe that rather than being a burden, the spatial nature represents a valuable opportunity, imbuing datasets with elegance and smoothness. By employing appropriate formulations, we can unlock the full potential of spatial knowledge and extract unique, highly valuable insights from the data. My research has been motivated by the statistical challenges at the forefront of science across various different spatial contexts, which require novel and efficient methodology.
 
 ---
 
@@ -26,9 +25,15 @@ In both fixed effect estimation and spatial prediction tasks, NN-GLS provides su
 **Related publications**
 
 
-<div style="display: flex; justify-content: space-around; visibility: hidden;">
-  {% include figure.liquid path="assets/img/MISE_dim5_main.png" alt="Image 1 description" width="45%" %}
-  {% include figure.liquid path="assets/img/MISE_dim5_main.png" alt="Image 2 description" width="45%" %}
+<div style="display: flex; justify-content: space-around;">
+  <figure>
+    {% include figure.liquid path="assets/img/MISE_dim5_main.png" alt="Image 1 description" width="45%" %}
+    <figcaption style="display: none;">Image 1 description</figcaption>
+  </figure>
+  <figure>
+    {% include figure.liquid path="assets/img/MISE_dim5_main.png" alt="Image 2 description" width="45%" %}
+    <figcaption style="display: none;">Image 2 description</figcaption>
+  </figure>
 </div>
 
 ---
