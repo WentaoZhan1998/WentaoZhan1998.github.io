@@ -26,9 +26,9 @@ NN-GLS admits a representation as a special type of graph neural network, which 
 - Zhan, W., & Datta, A. (2024). Neural networks for geospatial data. Journal of the American Statistical Association, 1–21.
 
 
-<div style="display: flex; justify-content: space-around;">
-    {% include figure.liquid path="assets/img/real_3.png" width="40%" caption='Prediction interval from NN-GLS' %}
-    {% include figure.liquid path="assets/img/MISE_dim5_main.png" width="40%" caption='Estimation performance for NN-GLS' %}
+<div style="display: flex; justify-content: space-between;">
+    {% include figure.liquid path="assets/img/real_3.png" width="50%" caption='Prediction interval from NN-GLS' %}
+    {% include figure.liquid path="assets/img/MISE_dim5_main.png" width="50%" caption='Estimation performance for NN-GLS' %}
 </div>
 
 ---
@@ -55,4 +55,4 @@ We introduce Multispa, a statistical tool that leverages spatial information to 
 **Related publications**
 - Zhan, W., & Ji, H (2024). Multispa: a multi-sample cell-microenvironment tool for spatial transcriptomics  (Manuscript in prepartion)
 
-{% include figure.liquid path="assets/img/updated_NN_figure.png" caption='Architecture geospaNN' width="95%" %}
+{% include figure.liquid path="assets/img/spatial.png" caption='Differential gene regulation' width="95%" %}
