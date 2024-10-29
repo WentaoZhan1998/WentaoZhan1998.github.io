@@ -27,12 +27,8 @@ NN-GLS admits a representation as a special type of graph neural network, which 
 
 
 <div style="display: flex; justify-content: space-around;">
-  <figure>
-    {% include figure.liquid path="assets/img/real_3.png" width="95%" caption='Prediction interval from NN-GLS' %}
-  </figure>
-  <figure>
-    {% include figure.liquid path="assets/img/MISE_dim5_main.png" width="95%" caption='Estimation performance for NN-GLS' %}
-  </figure>
+    {% include figure.liquid path="assets/img/real_3.png" width="40%" caption='Prediction interval from NN-GLS' %}
+    {% include figure.liquid path="assets/img/MISE_dim5_main.png" width="40%" caption='Estimation performance for NN-GLS' %}
 </div>
 
 ---
