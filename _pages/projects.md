@@ -25,11 +25,7 @@ NN-GLS admits a representation as a special type of graph neural network, which 
 **Related publications**
 - Zhan, W., & Datta, A. (2024). Neural networks for geospatial data. Journal of the American Statistical Association, 1–21.
 
-
-<div style="display: flex; justify-content: space-between;">
-    {% include figure.liquid path="assets/img/real_3.png" width="50%" caption='Prediction interval from NN-GLS' %}
-    {% include figure.liquid path="assets/img/MISE_dim5_main.png" width="50%" caption='Estimation performance for NN-GLS' %}
-</div>
+{% include figure.liquid path="assets/img/real_3.png" width="95%" caption='Prediction interval from NN-GLS' %}
 
 ---
 
