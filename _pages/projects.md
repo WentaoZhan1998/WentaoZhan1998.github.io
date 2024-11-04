@@ -50,6 +50,6 @@ In this project, we hypothesize that the relationship between the expression of 
 We introduce Multispa, a statistical tool that leverages spatial information to identify differentially associated gene pairs between groups. Multispa uncovers distinct gene regulatory mechanisms across these groups and holds significant implications for immunotherapy research.
 
 **Related publications**
-- Zhan, W., & Ji, H (2024). Multispa: a multi-sample cell-microenvironment tool for spatial transcriptomics  (Manuscript in prepartion)
+- Zhan, W., & Ji, H (2024). Multispa: a Multi-sample Cell-microenvironment Tool for Spatial Transcriptomics  (Manuscript in prepartion)
 
 {% include figure.liquid path="assets/img/Spatial.png" caption='Differential gene regulation' width="95%" %}
