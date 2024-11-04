@@ -26,11 +26,11 @@ NN-GLS admits a representation as a special type of graph neural network, which 
 - Zhan, W., & Datta, A. (2024). Neural networks for geospatial data. Journal of the American Statistical Association, 1–21. [link](https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356293)
 
 
-{% include figure.liquid path="assets/img/updated_NN_figure.png" caption='' width="95%" %}
+{% include figure.liquid path="assets/img/NN-GLS.png" caption='' width="95%" %}
 
 ---
 
-## GeospaNN: A python package
+## GeospaNN: A python implementation for NN-GLS
 
 [GeospaNN](https://wentaozhan1998.github.io/geospaNN-doc/) is a package for geospatial analysis using neural networks that explicitly accounts for spatial correlation in the data. The package implements the NN-GLS method and is developed using PyTorch and under the framework of PyG library. GeospaNN is a geographically-informed Graph Neural Network (GNN) for analyzing large and irregular geospatial data, that combines multi-layer perceptrons, Gaussian processes, and generalized least squares (GLS) loss. GeospaNN offers both regression function estimation and spatial prediction. The sparse approximation in NN-GLS allows efficient computation in geospaNN, which scale up to sample sizes of hundreds of thousands.
 
@@ -52,4 +52,4 @@ We introduce Multispa, a statistical tool that leverages spatial information to 
 **Related publications**
 - Zhan, W., & Ji, H (2024). Multispa: a multi-sample cell-microenvironment tool for spatial transcriptomics  (Manuscript in prepartion)
 
-{% include figure.liquid path="assets/img/Spatial" caption='Differential gene regulation' width="95%" %}
+{% include figure.liquid path="assets/img/Spatial.png" caption='Differential gene regulation' width="95%" %}
