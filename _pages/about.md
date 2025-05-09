@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m Wentao Zhan, a fifth-year Ph.D. student in the Department of Biostatistics at **Johns Hopkins University**, advised by Dr. Hongkai Ji and Dr. Abhirup Datta. Before beginning my Ph.D. in 2020, I earned a Bachelor of Science in Mathematics and Applied Mathematics from **Fudan University**.
+I’m Wentao Zhan, a fifth-year Ph.D. student in the Department of Biostatistics at **Johns Hopkins University**, advised by Dr. Hongkai Ji and Dr. Abhirup Datta. Before beginning my Ph.D. in 2020, I earned a Bachelor of Science in Mathematics and Applied Mathematics from **Fudan University**. I'm joing University of Wisconsin-Madison as a postdoctoral researcher this summer.
 
 My research addresses key statistical challenges at the frontiers of science, with a particular focus on spatial data across diverse contexts. Methodologically, I aim to blend the flexibility of modern machine learning with the parsimony of traditional geospatial modeling to develop scalable methods that retain clear statistical interpretability. For instance, my recent work, ["Neural Networks for Geospatial Data"](https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356293), presents an innovative and efficient adaptation of neural networks for spatial data, underpinned by rigorous theoretical analysis.
 
