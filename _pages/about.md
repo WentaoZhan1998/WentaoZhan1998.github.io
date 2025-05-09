@@ -22,7 +22,7 @@ My research addresses key statistical challenges at the frontiers of science, wi
 
 In terms of application, my primary focus is on spatial transcriptomics—a cutting-edge technology that captures spatially-resolved gene expression data for thousands of cells and genes simultaneously. Through spatial modeling, my work aims to uncover the interactions between cells and their microenvironments, offering insights that could inform immunotherapy and pathology research. I also apply my methods to environmental data. I developed the Python package [GeospaNN](https://github.com/WentaoZhan1998/geospaNN), which implements my previous work and performs well on PM 2.5 data from the U.S. [Environmental Protection Agency (EPA)](https://www.epa.gov/outdoor-air-quality-data/download-daily-data).
 
-For more details on my research, please visit the [Research](https://wentaozhan1998.github.io/research/) page.
+For more details on my research, please visit the Research page.
 
 ---
 
