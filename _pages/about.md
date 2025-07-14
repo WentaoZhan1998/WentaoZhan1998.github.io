@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>wzhan3 at jhu dot edu</p>
+    <p>wentao.zhan at wisc dot edu</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -31,6 +31,7 @@ For more details on my research, please visit my Research page.
 - **Travel Award**, ASA Section on Statistics and the Environment (ENVR), 2024
 - **Travel Grants Award**, Johns Hopkins School of Public Health, 2023
 - **Outstanding Graduates**, Fudan University, 2020
+
 ---
 
 ## Key words: 
