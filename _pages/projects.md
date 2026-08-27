@@ -56,19 +56,3 @@ NN-GLS admits a representation as a special type of graph neural network, which 
 
 ---
 
-
-
-<!--
-## Multispa: a multi-sample cell-microenvironment analysis tool 
-
-The development of spatial transcriptomics allows for single-cell (or near-single-cell) level sequencing of tissues while preserving spatial information. This technique represents an unprecedented advancement in medical and biological research. For instance, in immunology, immune cells interact with tumor cells through antibody signaling, and the fate of a tumor cell is influenced by the density of immune cells in its microenvironment, which can only depicted by introducing "spatial distance."
-
-In this project, we hypothesize that the relationship between the expression of gene A in tumor cells and the expression of gene B in immune cells within their microenvironment may differ across patient groups (e.g., treatment vs. control).
-
-We introduce Multispa, a statistical tool that leverages spatial information to identify differentially associated gene pairs between groups. Multispa uncovers distinct gene regulatory mechanisms across these groups and holds significant implications for immunotherapy research.
-
-**Related publications**
-- Zhan, W., & Ji, H (2025+). Multispa: a Multi-sample Cell-microenvironment Tool for Spatial Transcriptomics  (Manuscript in prepartion)
-
-{% include figure.liquid path="assets/img/Spatial.png" caption='Differential gene regulation' width="95%" %}
--->
